@@ -1,9 +1,13 @@
+.App {
+  background-color: black; 
+}
+
 .App-header {
-  background-color: #282c34; 
   color: white;
   padding: 20px;
   display: flex;
   align-items: center;
+  border-bottom: 2px solid white;
 }
 
 .App-header img {
@@ -13,5 +17,5 @@
 
 .App-header p {
   font-size: 24px;
-  font-family: -apple-system, 'Segoe UI', Roboto, 'Open Sans', sans-serif;
+  font-family: 'Segoe UI', Roboto, 'Open Sans', sans-serif;
 }
