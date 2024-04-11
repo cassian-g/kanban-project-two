@@ -6,7 +6,11 @@
   align-items: center;
 }
 
-.App-logo {
-  height: 40px; 
+.App-header img {
+  height: 50px; 
   margin-right: 10px;
+}
+
+.App-header p {
+  font-size: 24px;
 }
