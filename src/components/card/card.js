@@ -1,9 +1,11 @@
 import React from 'react';
-import './card.css';
+import styles from './card.module.css';
 
 function Card() {
   return (
-    <p>This is a card</p>
+    <div className={styles.card}>
+      <p>This is a card</p>
+    </div>
   )
 }
 

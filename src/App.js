@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Board from './components/board/board.js';
-import Card from './components/card/card.js';
 
 import logo from './logo.svg';
 
@@ -16,7 +15,6 @@ function App() {
       </header>
       <div className="App-body">
         <Board />
-        <Card />
       </div>
     </div>
   );

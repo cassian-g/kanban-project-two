@@ -1,0 +1,13 @@
+.board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: calc(25% - 20px); 
+  height: 675px; 
+  background-color: #14161A;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 0 10px; 
+}
