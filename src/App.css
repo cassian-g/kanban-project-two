@@ -1,14 +1,12 @@
-.App {
-  text-align: left;
+.App-header {
+  background-color: #282c34; 
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .App-logo {
-  height: 15vmin;
+  height: 40px; 
+  margin-right: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  color: white;
-}
-
-
