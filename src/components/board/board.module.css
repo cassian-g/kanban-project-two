@@ -1,13 +1,37 @@
 .board {
   display: flex;
-  justify-content: space-between;
 }
 
 .box {
-  width: calc(25% - 20px); 
-  height: 675px; 
+  flex: 1;
+  height: 675px;
+  margin: 0 10px;
   background-color: #14161A;
   border-radius: 20px;
-  box-sizing: border-box;
-  margin: 0 10px; 
+  overflow: hidden;
+}
+
+.boxHeader {
+  color: black;
+  padding: 20px;
+  z-index: 1;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#backlogbox {
+  background-color: #df1263;
+}
+
+#doingbox {
+  background-color: #FFA500;
+}
+
+#reviewbox {
+  background-color: #FFD700;
+}
+
+#donebox {
+  background-color: #00FF00;
 }

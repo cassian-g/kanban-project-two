@@ -5,20 +5,20 @@ function Board() {
   return (
     <div className={styles.board}>
       <div className={styles.box}>
-        <h2>Backlog</h2>
+        <div className={styles.boxHeader} id={styles.backlogbox}>Backlog</div>
       </div>
       <div className={styles.box}>
-        <h2>Doing</h2>
+        <div className={styles.boxHeader} id={styles.doingbox}>Doing</div>
       </div>
       <div className={styles.box}>
-        <h2>Review</h2>
+        <div className={styles.boxHeader} id={styles.reviewbox}>Review</div>
       </div>
       <div className={styles.box}>
-        <h2>Done</h2>
+        <div className={styles.boxHeader} id={styles.donebox}>Done</div>
       </div>
-
     </div>
   );
 }
 
 export default Board;
+
