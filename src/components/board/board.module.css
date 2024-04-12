@@ -4,8 +4,8 @@
 
 .box {
   flex: 1;
-  height: 675px;
   margin: 0 10px;
+  height: 675px;
   background-color: #14161A;
   border-radius: 20px;
   overflow: hidden;
@@ -13,11 +13,12 @@
 
 .boxHeader {
   color: black;
-  padding: 20px;
-  z-index: 1;
-  text-align: center;
-  font-size: 1.5em;
   font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px;
+  opacity: 0.8;
+  z-index: 1;
 }
 
 #backlogbox {

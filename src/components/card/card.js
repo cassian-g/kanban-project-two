@@ -1,12 +1,20 @@
-import React from 'react';
-import styles from './card.module.css';
+import React from "react";
+import styles from "./card.module.css";
 
-function Card() {
+function Card({ card, removeCard, moveCard }) {
   return (
-    <div className={styles.card}>
-      <p>This is a card</p>
+    <div className={styles.box}>
+      {card.item}
+      {card.responsible}
+      <button onClick={() => removeCard(card)} >Remove</button>
+      <select onChange={(e) => moveCard(e, card)}>
+        <option value="backlog">Backlog</option>
+        <option value="doing">Doing</option>
+        <option value="review">Review</option>
+        <option value="done">Done</option>
+      </select>
     </div>
-  )
+  );
 }
 
 export default Card;

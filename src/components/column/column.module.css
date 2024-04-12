@@ -1,3 +1,9 @@
+.card {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
 .box {
   width: calc(100% - 60px); /* Calculate width with margin */
   margin: 20px 5px 0px 5px; /* Add margin */
@@ -6,4 +12,8 @@
   height: 4em; /* Set fixed height */
   border-radius: 10px; /* Add border radius */
   color: #df1263;
+}
+
+#add {
+  border: none; 
 }
