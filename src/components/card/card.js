@@ -6,8 +6,9 @@ function Card({ card, removeCard, moveCard }) {
     <div className={styles.box}>
       {card.item}
       {card.responsible}
-      <button onClick={() => removeCard(card)} >Remove</button>
-      <select onChange={(e) => moveCard(e, card)}>
+      <button onClick={() => removeCard(card)}>Remove</button>
+      
+      <select onChange={(e) => moveCard(card, e.target.value)}>
         <option value="backlog">Backlog</option>
         <option value="doing">Doing</option>
         <option value="review">Review</option>

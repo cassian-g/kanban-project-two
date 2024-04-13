@@ -13,11 +13,10 @@ function Column({ columnName, cards, addCard, removeCard, moveCard }) {
         ))}
       </div>
       <div>
-        <button onClick={() => addCard(columnName)} >+ Add a card</button>
+        <button onClick={() => addCard(columnName)}>+ Add a card</button>
       </div>
     </div>
   );
 }
 
 export default Column;
-
